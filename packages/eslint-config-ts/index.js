@@ -1,7 +1,7 @@
 module.exports = {
   parser: 'typescript-eslint-parser',
   plugins: ['typescript'],
-  extends: ['typescript', 'typescript/prettier'],
+  extends: ['@dkundel/js', 'typescript', 'typescript/prettier'],
   rules: {
     'no-unused-vars': 'off',
     'typescript/no-unused-vars': 'error',
