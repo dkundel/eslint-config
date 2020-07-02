@@ -3,7 +3,7 @@
   "private": true,
   "description": "🔧 My preferred ESLint configurations",
   "devDependencies": {
-    "lerna": "^2.9.1"
+    "lerna": "^3.22.1"
   },
   "repository": {
     "type": "git",

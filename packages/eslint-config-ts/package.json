@@ -1,6 +1,6 @@
 {
   "name": "@dkundel/eslint-config-ts",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "🔧 My preferred ESLint TypeScript configuration",
   "main": "index.js",
   "scripts": {
@@ -27,13 +27,13 @@
     "eslint": "*"
   },
   "devDependencies": {
-    "@dkundel/eslint-config-js": "^2.0.1",
-    "eslint": "^4.19.1"
+    "@dkundel/eslint-config-js": "^2.0.3",
+    "eslint": "^7.3.1"
   },
   "dependencies": {
-    "eslint-config-typescript": "^1.0.2",
-    "eslint-plugin-typescript": "^0.11.0",
-    "typescript-eslint-parser": "^14.0.0"
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "typescript-eslint-parser": "^22.0.0"
   },
   "publishConfig": {
     "access": "public"

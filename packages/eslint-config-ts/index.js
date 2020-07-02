@@ -5,13 +5,15 @@ module.exports = {
   rules: {
     'no-unused-vars': 'off',
     'typescript/no-unused-vars': 'error',
-    'prettier/prettier': ['error', { parser: 'typescript' }]
+    'prettier/prettier': ['error', { parser: 'typescript' }],
   },
-  overrides: {
-    files: ['**/*.ts'],
-    parser: 'typescript-eslint-parser',
-    rules: {
-      'no-undef': 'off'
-    }
-  }
+  overrides: [
+    {
+      files: ['**/*.ts'],
+      parser: 'typescript-eslint-parser',
+      rules: {
+        'no-undef': 'off',
+      },
+    },
+  ],
 };
